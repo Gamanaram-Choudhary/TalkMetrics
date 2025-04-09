@@ -40,7 +40,7 @@ function Dashboard() {
         setFetching(true);
         let p = url.split("=");
         let final = p[1].split("&");
-        console.log(final[0]);
+        // console.log(final[0]);
         const Url = {
             videoId: final[0],
         };
@@ -62,7 +62,7 @@ function Dashboard() {
             setComments(responseData);
             setComment(true);
             setFetching(false);
-            console.log(responseData)
+            // console.log(responseData)
         } 
         catch (error) {
             setFetching(false);
