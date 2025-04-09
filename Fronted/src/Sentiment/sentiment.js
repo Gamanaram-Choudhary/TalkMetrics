@@ -1,5 +1,5 @@
 import React from 'react'
-import Carde from '../Card/carde'
+import Carde from '../Cards/carde'
 import CommentCard from './commentCard'
 
 const Sentiment = ({comments, comment}) => {

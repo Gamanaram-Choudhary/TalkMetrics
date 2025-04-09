@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '../Card/card'
+import Card from '../Cards/card'
 
 const Emotion = () => {
     return (
