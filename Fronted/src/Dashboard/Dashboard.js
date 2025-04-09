@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './Dashboard.css';
-import Sidebar from './sidebar';
-import Sentiment from './Sentiment/sentiment';
-import Toxicity from './Toxicity/toxicity';
-import Emotion from './Emotion/emotion';
+import Sidebar from '../sidebar';
+import Sentiment from '../Sentiment/sentiment';
+import Toxicity from '../Toxicity/toxicity';
+import Emotion from '../Emotion/emotion';
 
 function Dashboard() {
     const [field, setField] = useState(0);
