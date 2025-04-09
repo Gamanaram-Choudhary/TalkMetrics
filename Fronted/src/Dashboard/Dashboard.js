@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Dashboard.css';
-import Sidebar from '../sidebar';
+import Sidebar from '../Sidebar/sidebar';
 import Sentiment from '../Sentiment/sentiment';
 import Toxicity from '../Toxicity/toxicity';
 import Emotion from '../Emotion/emotion';
